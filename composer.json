@@ -1,0 +1,30 @@
+{
+    "name": "angelobono/event-sourcing",
+    "description": "A very simple event store - easy to use!",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Angelo Bono",
+            "email": "mail@angelobono.de"
+        }
+    ],
+    "minimum-stability": "dev",
+    "config": {
+        "sort-packages": true
+    },
+    "require": {
+        "beberlei/assert": "dev-master",
+        "psr/container": "^1.0"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Bono\\EventSourcing\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Bono\\EventSourcingTests\\": "tests/"
+        }
+    }
+}

@@ -1,7 +1,7 @@
 
-= A Simple and easy to use Event Store Library for PHP =
+## A Simple and easy to use Event Store Library for PHP
 
-Simple Example:
+# Simple Example:
 
 ```
 // Create an event stream
@@ -20,7 +20,7 @@ $eventStore->append($eventStream);
 $eventStore->flush();
 ```
 
-Aggregate based Example:
+# Aggregate based Example:
 
 ```
 // Create an aggregate and record all changes in a versionable event stream.
@@ -33,11 +33,9 @@ $eventStore->append($person->popEventStream());
 $eventStore->flush();
 ```
 
-The Aggregate:
+# The Aggregate:
 
 ```
-declare (strict_types = 1);
-
 namespace Bono\EventSourcing;
 
 class Person implements Api\AggregateRootInterface

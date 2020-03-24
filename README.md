@@ -4,6 +4,8 @@
 # Simple Example:
 
 ```
+<?php
+
 // Create an event stream
 $eventStream = new EventStream(EventStream::class, [
     Event::create('CreatePerson', [
@@ -23,6 +25,8 @@ $eventStore->flush();
 # Aggregate based Example:
 
 ```
+<?php
+
 // Create an aggregate and record all changes in a versionable event stream.
 $person = Person::create('Max', 'Mustermann');
 $person->changeName('Moritz', 'Mustermann');
@@ -36,6 +40,8 @@ $eventStore->flush();
 # The Aggregate:
 
 ```
+<?php
+
 namespace Bono\EventSourcing;
 
 class Person implements Api\AggregateRootInterface

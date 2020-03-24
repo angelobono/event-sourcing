@@ -1,7 +1,7 @@
 
-## A Simple and easy to use Event Store Library for PHP
+## A small and easy to use Event Store Solution for PHP
 
-# Simple Example:
+# Simple Event Stream Example:
 
 ```
 <?php

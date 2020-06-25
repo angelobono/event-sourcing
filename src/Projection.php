@@ -33,7 +33,7 @@ class Projection
 
     public function when(callable ...$handlers)
     {
-        foreach ($this->eventStore->read($topic) as $event) {
+        foreach ($this->eventStore->read($this->topic) as $event) {
             foreach ($handlers as $handler) {
                 $handler($event, $this->data);
             }

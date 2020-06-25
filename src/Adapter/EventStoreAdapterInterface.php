@@ -7,7 +7,7 @@
  */
 declare(strict_types=1);
 
-namespace Bono\EventSourcing\Api;
+namespace Bono\EventSourcing\Adapter;
 
 use Bono\EventSourcing\EventStream;
 

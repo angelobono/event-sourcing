@@ -2,6 +2,7 @@
     "name": "angelobono/event-sourcing",
     "description": "A very simple event store - easy to use!",
     "type": "project",
+    "version":"1.0.1",
     "authors": [
         {
             "name": "Angelo Bono",

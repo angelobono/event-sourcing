@@ -8,7 +8,7 @@
             "email": "mail@angelobono.de"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "config": {
         "sort-packages": true
     },
